@@ -30,6 +30,6 @@ in order of decreasing mcs overlap until a successful set of optimised poses cou
 Some molecules still failed to build and had to be replaced with ligands from a default FEGrow run see [here](https://github.com/cole-group/polaris-fegrow).
 
 ### MERS
-We used the same approach for SARS, but because only one reference receptor was provided for MERS, we have grown MERS ligands in the SARS receptor corresponding to the best MCS matching ligand.
+We used the same MCS approach for MERS as we did for SARS. Because only one reference receptor was provided for MERS, we have grown MERS ligands in the SARS receptors.
 Some structures still consistently failed to be built this way and so they 
 were replaced with ligands from a default FEGrow run see [here](https://github.com/cole-group/polaris-fegrow).
