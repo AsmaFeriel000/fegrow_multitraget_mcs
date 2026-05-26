@@ -33,3 +33,7 @@ Some molecules still failed to build and had to be replaced with ligands from a 
 We used the same MCS approach for MERS as we did for SARS. Because only one reference receptor was provided for MERS, we have grown MERS ligands in the SARS receptors.
 Some structures still consistently failed to be built this way and so they 
 were replaced with ligands from a default FEGrow run see [here](https://github.com/cole-group/polaris-fegrow).
+
+## Usage
+
+First use build_best_mers.ipynb and build_best_sars.ipynb to generate the poses each aligned to the respective receptor. Then use submit.ipynb join MERS, SARS and default-run poses into a single submission file. Finally run RMSD_calculation.ipynb to generate the final % rmsd <2 A score.
