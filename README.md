@@ -24,16 +24,12 @@ to treat the intramolecular energy of the ligand. After energy minimising each o
 
 ### SARS
 
-For each of the test ligands the 10 largest, sorted by mcs bonds and atoms, overlapping mcs cores were extracted as core templates to grow the ligand. The ligand was grown from each core 
+For each of the test ligands the 10 largest, sorted by mcs bonds and atoms, overlapping mcs cores were extracted as core templates to grow the ligand. The ligand was grown in the receptor corresponding to the best MCS match from each core 
 in order of decreasing mcs overlap until a successful set of optimised poses could be built. The lowest energy pose was then submitted. 
-
-The structures were then manually inspected and a list of 14 ligands were highlighted as having collapsed structures where the ML potential had failed, these we re-run using OpenFF-Sage for the intramolecular energies 
-of the ligand as well. 
 
 Some molecules still failed to build and had to be replaced with ligands from a default FEGrow run see [here](https://github.com/cole-group/polaris-fegrow).
 
 ### MERS
-
-As we only have a single training ligand for this set it was used to extract an MCS core for all test set ligands. The core was first rebuilt using FEGrow due to a strange bend 
-in the vector from the pyridine core which prevented all structures from being built. Some structures still consistently failed to be built this way and so they 
+We used the same approach for SARS, but because only one reference receptor was provided for MERS, we have grown MERS ligands in the SARS receptor corresponding to the best MCS matching ligand.
+Some structures still consistently failed to be built this way and so they 
 were replaced with ligands from a default FEGrow run see [here](https://github.com/cole-group/polaris-fegrow).
