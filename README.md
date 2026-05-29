@@ -35,7 +35,7 @@ Some structures still consistently failed to be built this way and so they
 were replaced with ligands from a default FEGrow run see [here](https://github.com/cole-group/polaris-fegrow).
 
 ## Usage
-Step 1: Run sars_run_mcs/run_pose_gen-modified.py and full_run-MERS/run_pose_gen-modified.py to grow the test molecules for sars and mers respectively in the sars pocket.
+Step 1: Run sars_run_mcs/run_pose_gen-modified.py and full_run-MERS/run_pose_gen-modified.py to use FEgrow to grow the test molecules for sars and mers respectively in the sars pocket.
 
 Step 2: Use build_best_sars.ipynb and build_best_mers.ipynb to align the poses to the respective receptor, generating best_sars.sdf and best_sars.sdf files.
 
