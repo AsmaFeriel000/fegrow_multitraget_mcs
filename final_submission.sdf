@@ -119,7 +119,7 @@ False
 nan
 
 >  <SMILES>  (1) 
-O=C1c2ccc(Cl)cc2[C@@]2(CN1Cc1nnco1)C(=O)N(c1cncc3ccccc13)C[C@@H]2CNc1ncncn1
+O=C1c2ccc(Cl)cc2C2(CN1Cc1nnco1)C(=O)N(c1cncc3ccccc13)CC2CNc1ncncn1
 
 >  <LABEL>  (1) 
 MERS-CoV Mpro
@@ -303,7 +303,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (3) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ccncn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ccncn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (3) 
 SARS-CoV-2 Mpro
@@ -392,7 +392,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (4) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2[NH3+])c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2[NH3+])c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (4) 
 MERS-CoV Mpro
@@ -500,7 +500,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (5) 
-O=C1c2ccc(Cl)cc2[C@@]2(CN1Cc1ccnnc1)C(=O)N(c1cncc3ccccc13)C[C@@H]2CNc1ccncn1
+O=C1c2ccc(Cl)cc2C2(CN1Cc1ccnnc1)C(=O)N(c1cncc3ccccc13)CC2CNc1ccncn1
 
 >  <LABEL>  (5) 
 MERS-CoV Mpro
@@ -603,7 +603,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (6) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnn(C)c2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnn(C)c2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (6) 
 SARS-CoV-2 Mpro
@@ -698,7 +698,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (7) 
-Cc1cnc(CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(F)ccc3C2=O)cn1
+Cc1cnc(CN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(F)ccc3C2=O)cn1
 
 >  <LABEL>  (7) 
 SARS-CoV-2 Mpro
@@ -794,7 +794,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (8) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC(C)C)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC(C)C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (8) 
 SARS-CoV-2 Mpro
@@ -887,7 +887,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (9) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1nccn1C)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1nccn1C)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (9) 
 SARS-CoV-2 Mpro
@@ -975,7 +975,7 @@ False
 nan
 
 >  <SMILES>  (10) 
-C[C@H]1c2ccsc2CCN1C(=O)Cc1cncc2ccccc12
+CC1c2ccsc2CCN1C(=O)Cc1cncc2ccccc12
 
 >  <LABEL>  (10) 
 MERS-CoV Mpro
@@ -1059,52 +1059,52 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (11) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC#N)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC#N)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (11) 
 MERS-CoV Mpro
 
 $$$$
-
+ligand_5
      RDKit          3D
 
  36 40  0  0  0  0  0  0  0  0999 V2000
-    6.7814    6.1007   20.9171 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.8244    7.0882   21.4310 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.0228    7.1259   22.9292 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.2151    8.1263   23.5744 O   0  0  0  0  0  0  0  0  0  0  0  0
-    7.9915    5.8499   23.6783 N   0  0  1  0  0  0  0  0  0  0  0  0
-    6.5634    5.4982   24.1857 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.5762    4.0809   24.6924 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.9755    3.1225   23.5778 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.3542    3.4279   23.0311 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.1766    2.4521   22.4325 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.6705    1.1366   22.1694 N   0  0  0  0  0  0  0  0  0  0  0  0
-    9.1355    0.0762   23.0528 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.5552   -0.3869   22.7724 C   0  0  0  0  0  0  0  0  0  0  0  0
-   11.5563   -0.1075   23.7033 C   0  0  0  0  0  0  0  0  0  0  0  0
-   12.8817   -0.4412   23.4551 C   0  0  0  0  0  0  0  0  0  0  0  0
-   13.2305   -1.1249   22.2987 C   0  0  0  0  0  0  0  0  0  0  0  0
-   12.2199   -1.4723   21.4135 C   0  0  0  0  0  0  0  0  0  0  0  0
-   12.6338   -2.4413   20.0341 Cl  0  0  0  0  0  0  0  0  0  0  0  0
-   10.8982   -1.0859   21.6144 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.7542    1.0152   21.1413 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.5991    1.9074   20.3315 O   0  0  0  0  0  0  0  0  0  0  0  0
-    6.9229   -0.2778   21.0787 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.8909   -0.1821   19.9968 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0989   -0.7737   18.7795 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2922   -0.6421   17.6937 N   0  0  0  0  0  0  0  0  0  0  0  0
-    4.2237    0.1060   17.8386 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8689    0.7652   19.0472 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.7043    1.5647   19.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.3759    2.1641   20.3433 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.2329    2.0332   21.4597 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.3850    1.2911   21.3684 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.7259    0.6227   20.1622 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.5032    2.7301   22.1308 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.9941    4.0236   22.2724 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.1697    5.0224   22.7756 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.8519    4.7235   23.1289 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7794   -5.7480   24.6082 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4276   -4.4774   25.3850 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4034   -4.2427   26.5161 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6285   -5.0096   27.4158 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1004   -2.9302   26.5409 N   0  0  2  0  0  0  0  0  0  0  0  0
+    6.1475   -1.8085   26.9912 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7273   -0.4503   26.6650 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9750   -0.3485   25.1637 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9243   -1.4321   24.6866 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7231   -1.2752   23.5423 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8120    0.0230   22.9532 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5853    1.0488   23.6471 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0388    1.1658   23.2025 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7177    2.3774   23.3448 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0402    2.5028   22.9254 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7029    1.4329   22.3334 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0188    0.2326   22.1870 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7670   -1.1036   21.3522 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   11.7230    0.0806   22.6609 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3257    0.2912   21.6917 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5264    1.3500   21.1309 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4842   -0.8252   21.0402 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6127   -0.2889   19.9530 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9287   -0.4764   18.6347 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2314    0.0272   17.5800 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1733    0.7501   17.8677 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7284    1.0315   19.1917 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5845    1.8293   19.4552 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1942    2.0815   20.7427 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9307    1.5506   21.8282 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0418    0.7787   21.5977 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4694    0.5003   20.2697 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4056   -2.3551   22.9859 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4858   -3.5600   23.6804 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7527   -3.7116   24.8507 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9539   -2.6693   25.3223 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  1  0
   2  3  1  0
   3  4  2  0
@@ -1147,35 +1147,14 @@ $$$$
  32 27  1  0
 M  CHG  1   5   1
 M  END
->  <cnnaffinities>  (12) 
-[6.28992]
+>  <template_ligand>  (12) 
+mol-58
 
->  <score>  (12) 
-6.28992
-
->  <index>  (12) 
-6
-
->  <Smiles>  (12) 
-C(C(C(=O)[N@+]1(C(C(C(c2c(N(C(c3c(c(c(c(Cl)c3[H])[H])[H])[H])([H])[H])C(=O)C(c3c(nc(c4c(c(c(c(c34)[H])[H])[H])[H])[H])[H])([H])[H])c(c(c(c12)[H])[H])[H])([H])[H])([H])[H])([H])[H])[H])([H])[H])([H])([H])[H]
-
->  <h>  (12) 
-<NA>
-
->  <Training>  (12) 
-True
-
->  <Success>  (12) 
-True
-
->  <enamine_searched>  (12) 
-False
-
->  <enamine_id>  (12) 
-nan
+>  <template_receptor>  (12) 
+receptors/receptor-58.pdb
 
 >  <SMILES>  (12) 
-CCC(=O)[N@H+]1CCCc2c(N(Cc3cccc(Cl)c3)C(=O)Cc3cncc4ccccc34)cccc21
+CCC(=O)[NH+]1CCCc2c(N(Cc3cccc(Cl)c3)C(=O)Cc3cncc4ccccc34)cccc21
 
 >  <LABEL>  (12) 
 MERS-CoV Mpro
@@ -1290,7 +1269,7 @@ False
 nan
 
 >  <SMILES>  (13) 
-C=C(CN(C(=O)[C@@H]1CN(CC(=O)NC)C(=O)c2ccc(Cl)cc21)c1cncc2ccccc12)C(=O)[O-]
+C=C(CN(C(=O)C1CN(CC(=O)NC)C(=O)c2ccc(Cl)cc21)c1cncc2ccccc12)C(=O)[O-]
 
 >  <LABEL>  (13) 
 SARS-CoV-2 Mpro
@@ -1575,7 +1554,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (17) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (17) 
 SARS-CoV-2 Mpro
@@ -1674,7 +1653,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (18) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC(=O)NCc1ccnn1C)C(=O)c1ccccc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC(=O)NCc1ccnn1C)C(=O)c1ccccc12
 
 >  <LABEL>  (18) 
 MERS-CoV Mpro
@@ -1736,7 +1715,7 @@ mol-100
 receptors/receptor-100.pdb
 
 >  <SMILES>  (19) 
-C[C@H]1C=CCN(C(=O)Cc2cncc3ccccc23)CC1
+CC1C=CCN(C(=O)Cc2cncc3ccccc23)CC1
 
 >  <LABEL>  (19) 
 SARS-CoV-2 Mpro
@@ -1828,7 +1807,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (20) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1c[nH+]c[nH]1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1c[nH+]c[nH]1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (20) 
 SARS-CoV-2 Mpro
@@ -1921,7 +1900,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (21) 
-Cc1cc(CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(F)ccc3C2=O)on1
+Cc1cc(CN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(F)ccc3C2=O)on1
 
 >  <LABEL>  (21) 
 MERS-CoV Mpro
@@ -2114,7 +2093,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (23) 
-O=C1c2ccc(Cl)cc2[C@@]2(CN1CC[NH+]1CCOCC1)C(=O)N(c1cncc3ccccc13)C[C@@H]2CNc1ncccn1
+O=C1c2ccc(Cl)cc2C2(CN1CC[NH+]1CCOCC1)C(=O)N(c1cncc3ccccc13)CC2CNc1ncccn1
 
 >  <LABEL>  (23) 
 SARS-CoV-2 Mpro
@@ -2219,7 +2198,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (24) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ccnc(C)n2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ccnc(C)n2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (24) 
 SARS-CoV-2 Mpro
@@ -2319,7 +2298,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (25) 
-C[C@H]1C[NH+](CCN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(Cl)ccc3C2=O)C[C@H](C)O1
+CC1C[NH+](CCN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(Cl)ccc3C2=O)CC(C)O1
 
 >  <LABEL>  (25) 
 MERS-CoV Mpro
@@ -2423,44 +2402,44 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (26) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[NH+]1CCN(S(C)(=O)=O)CC1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CCN(S(C)(=O)=O)CC1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (26) 
 SARS-CoV-2 Mpro
 
 $$$$
-
+ligand_10
      RDKit          3D
 
  28 31  0  0  0  0  0  0  0  0999 V2000
-    9.6036    3.5897   23.8726 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.9760    2.3322   23.8751 O   0  0  0  0  0  0  0  0  0  0  0  0
-    9.6911    1.2659   23.4272 C   0  0  0  0  0  0  0  0  0  0  0  0
-   11.0051    1.3715   22.9726 C   0  0  0  0  0  0  0  0  0  0  0  0
-   11.6557    0.2450   22.4802 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.9968   -0.9734   22.4457 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.6873   -1.0671   22.9158 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.0151    0.0308   23.4315 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.5823   -0.0486   23.9638 C   0  0  2  0  0  0  0  0  0  0  0  0
-    7.4982    0.0948   25.5012 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.5946   -1.2021   26.3127 C   0  0  2  0  0  0  0  0  0  0  0  0
-    9.0048   -1.7982   26.3806 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.5469   -2.1746   25.7645 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.7422   -2.4391   24.2779 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.8312   -1.2100   23.4816 N   0  0  0  0  0  0  0  0  0  0  0  0
-    6.3993   -1.3330   22.1756 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.6931   -2.2674   21.8387 O   0  0  0  0  0  0  0  0  0  0  0  0
-    6.8668   -0.3338   21.0975 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.8665   -0.1769   19.9821 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0393   -0.8061   18.7763 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2334   -0.6661   17.6903 N   0  0  0  0  0  0  0  0  0  0  0  0
-    4.1746    0.0930   17.8309 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8214    0.7471   19.0431 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.6409    1.5209   19.1682 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.3276    2.1330   20.3496 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.1991    2.0194   21.4542 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.3542    1.2847   21.3576 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.6932    0.6171   20.1497 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3902   -3.5925   25.1367 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8427   -2.6099   24.2154 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4447   -1.3154   24.4244 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1614   -1.0335   24.8878 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7454    0.2815   25.0385 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6104    1.3200   24.7134 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9042    1.0272   24.2802 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3657   -0.2837   24.1541 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8569   -0.6241   24.0048 C   0  0  2  0  0  0  0  0  0  0  0  0
+    8.6857    0.2946   24.9259 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3046    1.4528   24.1382 C   0  0  1  0  0  0  0  0  0  0  0  0
+    9.8193    2.4900   25.1085 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4174    0.8297   23.2887 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9588   -0.5490   22.7945 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4963   -0.5893   22.6707 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9997   -0.2788   21.4133 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6373    0.4253   20.6507 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7406   -1.0019   20.9222 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0245   -0.2539   19.8329 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5291   -0.2678   18.5552 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9624    0.3337   17.4764 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8588    1.0161   17.6918 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2455    1.1555   18.9701 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0631    1.9144   19.1750 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5023    2.0174   20.4184 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0899    1.3542   21.5193 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2237    0.6049   21.3472 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8372    0.4911   20.0722 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  1  0
   2  3  1  0
   3  4  2  0
@@ -2468,10 +2447,10 @@ $$$$
   5  6  2  0
   6  7  1  0
   7  8  2  0
-  9  8  1  1
+  9  8  1  6
   9 10  1  0
  10 11  1  0
- 11 12  1  6
+ 11 12  1  1
  11 13  1  0
  13 14  1  0
  14 15  1  0
@@ -2493,35 +2472,14 @@ $$$$
  28 19  1  0
  28 23  1  0
 M  END
->  <cnnaffinities>  (27) 
-[5.79148, 5.91045, 5.75609, 5.73146]
+>  <template_ligand>  (27) 
+mol-115
 
->  <score>  (27) 
-5.79148
-
->  <index>  (27) 
-11
-
->  <Smiles>  (27) 
-C(Oc1c(c(c(c(c1[C@@]1(C([C@](C([H])([H])[H])(C(C(N1C(=O)C(c1c(nc(c2c(c(c(c(c12)[H])[H])[H])[H])[H])[H])([H])[H])([H])[H])([H])[H])[H])([H])[H])[H])[H])[H])[H])[H])([H])([H])[H]
-
->  <h>  (27) 
-<NA>
-
->  <Training>  (27) 
-True
-
->  <Success>  (27) 
-True
-
->  <enamine_searched>  (27) 
-False
-
->  <enamine_id>  (27) 
-nan
+>  <template_receptor>  (27) 
+receptors/receptor-115.pdb
 
 >  <SMILES>  (27) 
-COc1ccccc1[C@@H]1C[C@H](C)CCN1C(=O)Cc1cncc2ccccc12
+COc1ccccc1C1CC(C)CCN1C(=O)Cc1cncc2ccccc12
 
 >  <LABEL>  (27) 
 MERS-CoV Mpro
@@ -2620,7 +2578,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (28) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cn2cccn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cn2cccn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (28) 
 SARS-CoV-2 Mpro
@@ -2719,7 +2677,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (29) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cn2ncnn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cn2ncnn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (29) 
 SARS-CoV-2 Mpro
@@ -2788,7 +2746,7 @@ mol-56
 receptors/receptor-56.pdb
 
 >  <SMILES>  (30) 
-O=C(Cc1cncc2ccccc12)N1C[C@H](CF)C2(CCCC2)C1
+O=C(Cc1cncc2ccccc12)N1CC(CF)C2(CCCC2)C1
 
 >  <LABEL>  (30) 
 MERS-CoV Mpro
@@ -2887,7 +2845,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (31) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COCC2CC2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COCC2CC2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (31) 
 MERS-CoV Mpro
@@ -2953,7 +2911,7 @@ mol-109
 receptors/receptor-109.pdb
 
 >  <SMILES>  (32) 
-C[C@@H]1CCc2c([O-])n(-c3cncc4ccccc34)c(=O)n2C1
+CC1CCc2c([O-])n(-c3cncc4ccccc34)c(=O)n2C1
 
 >  <LABEL>  (32) 
 SARS-CoV-2 Mpro
@@ -3052,7 +3010,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (33) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[N@@H+]1C[C@@H]3C[C@H]1CO3)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CC3CC1CO3)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (33) 
 MERS-CoV Mpro
@@ -3152,7 +3110,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (34) 
-C[C@H]1C[N@H+](CCN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(Cl)ccc3C2=O)[C@@H](C)CO1
+CC1C[NH+](CCN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(Cl)ccc3C2=O)C(C)CO1
 
 >  <LABEL>  (34) 
 MERS-CoV Mpro
@@ -3243,7 +3201,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (35) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cc[nH]n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cc[nH]n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (35) 
 SARS-CoV-2 Mpro
@@ -3314,7 +3272,7 @@ mol-160
 receptors/receptor-160.pdb
 
 >  <SMILES>  (36) 
-C[C@H]1C[C@H](c2ccccc2)N(C(=O)Cc2cncc3ccccc23)C1
+CC1CC(c2ccccc2)N(C(=O)Cc2cncc3ccccc23)C1
 
 >  <LABEL>  (36) 
 MERS-CoV Mpro
@@ -3387,7 +3345,7 @@ mol-690
 receptors/receptor-690.pdb
 
 >  <SMILES>  (37) 
-O=C1[C@@H](c2ccc(Cl)c(Cl)c2)C[C@H](O)CN1c1cncc2ccccc12
+O=C1C(c2ccc(Cl)c(Cl)c2)CC(O)CN1c1cncc2ccccc12
 
 >  <LABEL>  (37) 
 SARS-CoV-2 Mpro
@@ -3480,7 +3438,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (38) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1nncn1C)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1nncn1C)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (38) 
 MERS-CoV Mpro
@@ -3581,7 +3539,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (39) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cc2ccccc2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cc2ccccc2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (39) 
 SARS-CoV-2 Mpro
@@ -3650,7 +3608,7 @@ mol-351
 receptors/receptor-351.pdb
 
 >  <SMILES>  (40) 
-C[C@H]1CC[C@@]2(CCN(C(=O)Cc3cncc4ccccc34)C2)CC1
+CC1CCC2(CC1)CCN(C(=O)Cc1cncc3ccccc13)C2
 
 >  <LABEL>  (40) 
 MERS-CoV Mpro
@@ -3751,7 +3709,7 @@ mol-209
 receptors/receptor-209.pdb
 
 >  <SMILES>  (41) 
-O=C(C[N@H+]1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3ccccc23)C1)NCCc1ccc(C(F)F)cc1
+O=C(C[NH+]1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1)NCCc1ccc(C(F)F)cc1
 
 >  <LABEL>  (41) 
 MERS-CoV Mpro
@@ -3949,7 +3907,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (43) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cnn(C)c1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cnn(C)c1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (43) 
 MERS-CoV Mpro
@@ -4137,7 +4095,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (45) 
-C[C@H]1C[N@@H+](CCN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(Cl)ccc3C2=O)CCO1
+CC1C[NH+](CCN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(Cl)ccc3C2=O)CCO1
 
 >  <LABEL>  (45) 
 MERS-CoV Mpro
@@ -4232,46 +4190,46 @@ mol-23
 receptors/receptor-23.pdb
 
 >  <SMILES>  (46) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC(=O)NCC1CC1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC(=O)NCC1CC1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (46) 
 SARS-CoV-2 Mpro
 
 $$$$
-
+ligand_21
      RDKit          3D
 
  26 30  0  0  0  0  0  0  0  0999 V2000
-   -5.1987   -4.3748  -20.6464 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.7696   -3.6512  -21.5004 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2475   -4.1088  -22.7613 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.2590   -3.1531  -23.2300 C   0  0  2  0  0  0  0  0  0  0  0  0
-   -8.5285   -3.5235  -22.5137 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7531   -2.9393  -23.1379 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7384   -3.0267  -24.5444 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.6014   -3.0030  -25.3107 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.7032   -2.9179  -26.6862 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.5424   -2.8954  -27.4498 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.3732   -2.9576  -26.8156 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2585   -3.0408  -25.4729 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.3739   -3.0663  -24.6751 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.7002   -1.9032  -22.6013 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.8215   -0.7743  -23.1116 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.0506   -2.2551  -21.3870 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.7801   -1.3499  -20.3326 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.4833   -1.4036  -19.1223 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2760   -0.5846  -18.1023 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.3420    0.3707  -18.1948 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.5922    0.5091  -19.3470 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.6248    1.4830  -19.4702 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.8890    1.6120  -20.6129 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.0835    0.7776  -21.6849 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.0590   -0.2050  -21.5618 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.8198   -0.3619  -20.4188 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9173   -3.5823  -21.3873 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6512   -2.6807  -21.7202 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6023   -2.6686  -22.7083 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1860   -1.3584  -22.9700 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -8.5057   -0.6291  -24.1743 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.4752   -0.1487  -25.2411 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.6310    0.4474  -24.6750 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3335   -0.4058  -23.8963 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.7156   -0.3010  -23.9035 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.4364   -1.2239  -23.1650 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.8801   -2.1962  -22.4343 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.5449   -2.2453  -22.4092 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.7017   -1.3694  -23.1029 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7212   -0.6247  -21.6880 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1086    0.4238  -21.2490 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6999   -1.4025  -21.1352 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8589   -0.9260  -20.0927 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2051   -1.1519  -18.7894 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5666   -0.6051  -17.7229 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5555    0.1938  -17.9689 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0691    0.4835  -19.2746 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9688    1.3541  -19.4892 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5082    1.5802  -20.7561 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1150    0.9427  -21.8604 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1865    0.1061  -21.6803 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7083   -0.1232  -20.3775 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   2  3  1  0
   4  3  1  0
-  4  5  1  1
+  4  5  1  6
   5  6  1  0
   6  7  1  0
   7  8  1  0
@@ -4299,23 +4257,14 @@ $$$$
  26 21  1  0
  13  8  1  0
 M  END
->  <minimizedAffinity>  (47) 
--7.56286
+>  <template_ligand>  (47) 
+mol-109
 
->  <CNNscore>  (47) 
-0.6859658957
-
->  <CNNaffinity>  (47) 
-5.6039547920
-
->  <CNN_VS>  (47) 
-3.8441219330
-
->  <CNNaffinity_variance>  (47) 
-0.2837896943
+>  <template_receptor>  (47) 
+receptors/receptor-109.pdb
 
 >  <SMILES>  (47) 
-O=C1N[C@@]2(CCOc3ccncc32)C(=O)N1c1cncc2ccccc12
+O=C1NC2(CCOc3ccncc32)C(=O)N1c1cncc2ccccc12
 
 >  <LABEL>  (47) 
 SARS-CoV-2 Mpro
@@ -4415,7 +4364,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (48) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COCC2COC2)c2cc(Cl)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2COCC2COC2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (48) 
 MERS-CoV Mpro
@@ -4518,7 +4467,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (49) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ccccc2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ccccc2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (49) 
 SARS-CoV-2 Mpro
@@ -4614,7 +4563,7 @@ mol-23
 receptors/receptor-23.pdb
 
 >  <SMILES>  (50) 
-O=C(C[N@H+]1Cc2ccc(Cl)cc2[C@@]2(CCN(c3cncc4ccccc34)C2=O)C1)NC[C@H]1C[C@@H](F)C1
+O=C(C[NH+]1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1)NCC1CC(F)C1
 
 >  <LABEL>  (50) 
 SARS-CoV-2 Mpro
@@ -4720,7 +4669,7 @@ mol-209
 receptors/receptor-209.pdb
 
 >  <SMILES>  (51) 
-O=C(C[N@H+]1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3ccccc23)C1)Nc1ccc(N2CCOCC2=O)cc1
+O=C(C[NH+]1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1)Nc1ccc(N2CCOCC2=O)cc1
 
 >  <LABEL>  (51) 
 SARS-CoV-2 Mpro
@@ -4811,7 +4760,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (52) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cn[nH]n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cn[nH]n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (52) 
 SARS-CoV-2 Mpro
@@ -4898,7 +4847,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (53) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(F)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (53) 
 SARS-CoV-2 Mpro
@@ -5001,43 +4950,43 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (54) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnn(C)c2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnn(C)c2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (54) 
 MERS-CoV Mpro
 
 $$$$
-
+ligand_25
      RDKit          3D
 
  27 31  0  0  0  0  0  0  0  0999 V2000
-    8.5617    0.8306   20.3113 O   0  0  0  0  0  0  0  0  0  0  0  0
-    8.1104   -0.0661   20.9863 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.7515   -0.8587   21.8955 N   0  0  0  0  0  0  0  0  0  0  0  0
-    7.8549   -1.4423   22.8587 C   0  0  1  0  0  0  0  0  0  0  0  0
-    8.1345   -2.8994   23.2689 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.4200   -2.4419   24.7340 C   0  0  2  0  0  0  0  0  0  0  0  0
-    7.5527   -3.0612   25.7876 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.1577   -3.0377   25.6551 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.3261   -3.6142   26.6089 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.8831   -4.1796   27.7535 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.2535   -4.1205   27.9509 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.0785   -3.6344   26.9434 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.8069   -3.8092   27.1405 Cl  0  0  0  0  0  0  0  0  0  0  0  0
-    8.0360   -0.9807   24.3301 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.5053   -1.1857   22.2197 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.4284   -1.5199   22.6558 O   0  0  0  0  0  0  0  0  0  0  0  0
-    6.7538   -0.4579   21.0540 N   0  0  0  0  0  0  0  0  0  0  0  0
-    5.8358   -0.2296   19.9968 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0553   -0.8242   18.7792 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2529   -0.6580   17.7038 N   0  0  0  0  0  0  0  0  0  0  0  0
-    4.1918    0.0944   17.8560 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8380    0.7504   19.0658 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.6566    1.5278   19.1800 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.3548    2.1634   20.3490 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.2414    2.0781   21.4455 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.3939    1.3377   21.3613 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.7004    0.6194   20.1715 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5895    1.4178   21.1638 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3364    0.3119   21.5785 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8297   -0.3230   22.6855 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3935   -1.6859   22.8276 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.8363   -2.1401   24.1871 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7979   -3.3512   24.1756 C   0  0  2  0  0  0  0  0  0  0  0  0
+    9.6440   -3.6304   25.3878 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5830   -4.9119   25.9397 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3185   -5.2781   27.0554 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1527   -4.3488   27.6604 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2430   -3.0657   27.1425 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4979   -2.7159   26.0219 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7053   -1.0714   25.4708 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    9.4691   -2.7806   22.9060 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4311   -1.8276   21.6666 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7977   -2.8037   21.3540 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4188   -0.5910   21.0132 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5590   -0.1914   19.9511 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9295   -0.3930   18.6492 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2684    0.1085   17.5722 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2008    0.8388   17.7916 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6696    1.0847   19.0893 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5043    1.8757   19.2953 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0194    2.0699   20.5585 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6722    1.4898   21.6704 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8048    0.7353   21.5000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3458    0.5279   20.2036 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   2  3  1  0
   4  3  1  0
@@ -5070,35 +5019,14 @@ $$$$
  27 22  1  0
  12  7  1  0
 M  END
->  <cnnaffinities>  (55) 
-[5.70965, 5.57673, 5.69732, 5.54045]
+>  <template_ligand>  (55) 
+mol-109
 
->  <score>  (55) 
-5.70965
-
->  <index>  (55) 
-26
-
->  <Smiles>  (55) 
-O=C1N([C@]2(C([C@](c3c(c(c(c(c3Cl)[H])[H])[H])[H])(C2([H])[H])[H])([H])[H])C(=O)N1c1c(nc(c2c(c(c(c(c12)[H])[H])[H])[H])[H])[H])[H]
-
->  <h>  (55) 
-<NA>
-
->  <Training>  (55) 
-True
-
->  <Success>  (55) 
-True
-
->  <enamine_searched>  (55) 
-False
-
->  <enamine_id>  (55) 
-nan
+>  <template_receptor>  (55) 
+receptors/receptor-109.pdb
 
 >  <SMILES>  (55) 
-O=C1N[C@]2(C[C@H](c3ccccc3Cl)C2)C(=O)N1c1cncc2ccccc12
+O=C1NC2(CC(c3ccccc3Cl)C2)C(=O)N1c1cncc2ccccc12
 
 >  <LABEL>  (55) 
 MERS-CoV Mpro
@@ -5196,7 +5124,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (56) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CS(=O)(=O)NC)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CS(=O)(=O)NC)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (56) 
 SARS-CoV-2 Mpro
@@ -5266,7 +5194,7 @@ mol-323
 receptors/receptor-323.pdb
 
 >  <SMILES>  (57) 
-CC[C@H]1C[C@@H](C(F)(F)F)CCN1C(=O)Cc1cncc2ccccc12
+CCC1CC(C(F)(F)F)CCN1C(=O)Cc1cncc2ccccc12
 
 >  <LABEL>  (57) 
 MERS-CoV Mpro
@@ -5368,7 +5296,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (58) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COCC2(F)COC2)c2cc(Cl)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2COCC2(F)COC2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (58) 
 MERS-CoV Mpro
@@ -5470,7 +5398,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (59) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ncncn2)c2cc(Cl)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ncncn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (59) 
 MERS-CoV Mpro
@@ -5571,7 +5499,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (60) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cc2ccccc2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cc2ccccc2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (60) 
 MERS-CoV Mpro
@@ -5677,7 +5605,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (61) 
-O=C1c2ccc(Cl)cc2[C@@]2(CN1Cc1nnco1)C(=O)N(c1cncc3ccccc13)C[C@@H]2CNc1ccncn1
+O=C1c2ccc(Cl)cc2C2(CN1Cc1nnco1)C(=O)N(c1cncc3ccccc13)CC2CNc1ccncn1
 
 >  <LABEL>  (61) 
 MERS-CoV Mpro
@@ -5777,7 +5705,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (62) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[N@H+]1CCOC(C)(C)C1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CCOC(C)(C)C1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (62) 
 MERS-CoV Mpro
@@ -5868,7 +5796,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (63) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cn[nH]n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cn[nH]n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (63) 
 SARS-CoV-2 Mpro
@@ -5939,7 +5867,7 @@ mol-160
 receptors/receptor-160.pdb
 
 >  <SMILES>  (64) 
-O=C(Cc1cncc2ccccc12)N1CCC[C@@H]1c1cccc(F)c1
+O=C(Cc1cncc2ccccc12)N1CCCC1c1cccc(F)c1
 
 >  <LABEL>  (64) 
 MERS-CoV Mpro
@@ -6034,7 +5962,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (65) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cc(=O)[nH]cn1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cc(=O)[nH]cn1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (65) 
 SARS-CoV-2 Mpro
@@ -6137,7 +6065,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (66) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ccncn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ccncn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (66) 
 SARS-CoV-2 Mpro
@@ -6230,7 +6158,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (67) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1nnnn1C)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1nnnn1C)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (67) 
 SARS-CoV-2 Mpro
@@ -6323,7 +6251,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (68) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cnn(C)n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cnn(C)n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (68) 
 MERS-CoV Mpro
@@ -6481,7 +6409,7 @@ mol-668
 receptors/receptor-668.pdb
 
 >  <SMILES>  (70) 
-C[C@H](NC(=O)COS(N)(=O)=O)c1cc(Cl)cc(-c2ccc(S(N)(=O)=O)cc2)c1
+CC(NC(=O)COS(N)(=O)=O)c1cc(Cl)cc(-c2ccc(S(N)(=O)=O)cc2)c1
 
 >  <LABEL>  (70) 
 SARS-CoV-2 Mpro
@@ -6577,7 +6505,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (71) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC(C)C)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC(C)C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (71) 
 SARS-CoV-2 Mpro
@@ -6649,35 +6577,35 @@ O=C(Cc1cncc2ccccc12)N1CCC(C(F)(F)F)CC1
 SARS-CoV-2 Mpro
 
 $$$$
-
+ligand_35
      RDKit          3D
 
  25 28  0  0  0  0  0  0  0  0999 V2000
-   -8.4981    0.7365  -21.4579 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.5220   -0.4353  -21.7869 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.4713   -1.4225  -21.2706 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.6061   -0.8342  -20.1910 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.9124   -1.0516  -18.8763 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2382   -0.5507  -17.8044 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.1965    0.2052  -18.0717 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.7578    0.5208  -19.3852 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.6267    1.3496  -19.6166 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.2330    1.6442  -20.8942 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.9497    1.1259  -21.9952 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.0503    0.3246  -21.7975 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.4821   -0.0033  -20.4829 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.5121   -0.9469  -22.5901 N   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.6193   -0.0577  -22.9152 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.9309   -0.8041  -22.7211 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.9956   -2.1060  -23.5133 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.7669   -2.9553  -23.1718 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.4468   -2.1947  -23.3630 C   0  0  1  0  0  0  0  0  0  0  0  0
-   -9.0944   -1.9582  -24.8395 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7433   -2.6108  -25.8960 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.3300   -2.4365  -27.2145 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.3418   -1.5049  -27.5126 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.7006   -0.8321  -26.4748 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.0458   -1.0848  -25.1513 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9048   -2.9249  -23.8957 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.9958   -3.4767  -23.9695 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1520   -2.9913  -23.1011 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.7516   -1.6674  -23.5083 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0382   -0.6885  -24.1506 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5635    0.4819  -24.5962 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.8436    0.6785  -24.3971 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.6941   -0.2244  -23.7016 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.0853   -0.0001  -23.5304 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.8201   -0.8483  -22.7421 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.1866   -1.9038  -22.0467 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.8516   -2.1547  -22.2239 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.0984   -1.3756  -23.1400 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1935   -4.5598  -24.7954 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5101   -5.1235  -25.0938 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5826   -5.6470  -26.5227 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.4462   -6.6178  -26.8097 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1095   -5.9257  -26.5611 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9814   -5.3065  -25.1668 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -6.5246   -6.2831  -24.0810 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3473   -7.2898  -23.5772 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8792   -8.1649  -22.6004 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5876   -8.0306  -22.1022 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.7470   -7.0512  -22.6168 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2176   -6.1825  -23.5953 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   2  3  1  0
   3  4  1  0
@@ -6696,7 +6624,7 @@ $$$$
  16 17  1  0
  17 18  1  0
  18 19  1  0
- 19 20  1  6
+ 19 20  1  1
  20 21  2  0
  21 22  1  0
  22 23  2  0
@@ -6707,35 +6635,14 @@ $$$$
  25 20  1  0
  13  8  1  0
 M  END
->  <cnnaffinities>  (73) 
-[5.03309, 5.2529, 5.27416, 5.51038, 5.51253]
+>  <template_ligand>  (73) 
+mol-73
 
->  <score>  (73) 
-5.03309
-
->  <index>  (73) 
-36
-
->  <Smiles>  (73) 
-O=C(C(c1c(nc(c2c(c(c(c(c12)[H])[H])[H])[H])[H])[H])([H])[H])N1C(C(C(C([C@]1(c1c(c(c(c(c1[H])[H])[H])[H])[H])[H])([H])[H])([H])[H])([H])[H])([H])[H]
-
->  <h>  (73) 
-<NA>
-
->  <Training>  (73) 
-True
-
->  <Success>  (73) 
-True
-
->  <enamine_searched>  (73) 
-False
-
->  <enamine_id>  (73) 
-nan
+>  <template_receptor>  (73) 
+receptors/receptor-73.pdb
 
 >  <SMILES>  (73) 
-O=C(Cc1cncc2ccccc12)N1CCCC[C@H]1c1ccccc1
+O=C(Cc1cncc2ccccc12)N1CCCCC1c1ccccc1
 
 >  <LABEL>  (73) 
 SARS-CoV-2 Mpro
@@ -6828,7 +6735,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (74) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ccn(C)n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ccn(C)n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (74) 
 MERS-CoV Mpro
@@ -7013,7 +6920,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (76) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COCC2CS(=O)(=O)C2)c2cc(Cl)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2COCC2CS(=O)(=O)C2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (76) 
 MERS-CoV Mpro
@@ -7099,7 +7006,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (77) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2ccccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2ccccc2C1=O
 
 >  <LABEL>  (77) 
 SARS-CoV-2 Mpro
@@ -7163,7 +7070,7 @@ mol-192
 receptors/receptor-192.pdb
 
 >  <SMILES>  (78) 
-C[C@H]1C[C@@H](C)N(C(=O)Cc2cncc3ccccc23)[C@@H](C)C1
+CC1CC(C)N(C(=O)Cc2cncc3ccccc23)C(C)C1
 
 >  <LABEL>  (78) 
 SARS-CoV-2 Mpro
@@ -7236,7 +7143,7 @@ mol-109
 receptors/receptor-109.pdb
 
 >  <SMILES>  (79) 
-CC(=O)N1C[C@@H]2C[C@H]1c1c([O-])n(-c3cncc4ccccc34)c(=O)n12
+CC(=O)N1CC2CC1c1c([O-])n(-c3cncc4ccccc34)c(=O)n12
 
 >  <LABEL>  (79) 
 SARS-CoV-2 Mpro
@@ -7396,7 +7303,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (81) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CS(=O)(=O)N(C)C)c2cc(F)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CS(=O)(=O)N(C)C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (81) 
 SARS-CoV-2 Mpro
@@ -7469,7 +7376,7 @@ mol-127
 receptors/receptor-127.pdb
 
 >  <SMILES>  (82) 
-Cn1ncc2cncc(NC(=O)[C@@H]3CNS(=O)(=O)c4ccc(Cl)cc43)c21
+Cn1ncc2cncc(NC(=O)C3CNS(=O)(=O)c4ccc(Cl)cc43)c21
 
 >  <LABEL>  (82) 
 SARS-CoV-2 Mpro
@@ -7561,7 +7468,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (83) 
-CCO[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC(=O)NC)C(=O)c1ccc(Cl)cc12
+CCOC1CN(c2cncc3ccccc23)C(=O)C12CN(CC(=O)NC)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (83) 
 MERS-CoV Mpro
@@ -7664,7 +7571,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (84) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2scnc2C)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2scnc2C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (84) 
 SARS-CoV-2 Mpro
@@ -7756,7 +7663,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (85) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CC#N)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CC#N)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (85) 
 MERS-CoV Mpro
@@ -7848,7 +7755,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (86) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (86) 
 SARS-CoV-2 Mpro
@@ -7947,7 +7854,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (87) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CCN1CCS(=O)(=O)CC1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CCN1CCS(=O)(=O)CC1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (87) 
 MERS-CoV Mpro
@@ -8048,7 +7955,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (88) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cc2ccccc2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cc2ccccc2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (88) 
 SARS-CoV-2 Mpro
@@ -8132,47 +8039,47 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (89) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC#N)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC#N)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (89) 
 SARS-CoV-2 Mpro
 
 $$$$
-
+ligand_46
      RDKit          3D
 
  31 36  0  0  0  0  0  0  0  0999 V2000
-   -8.4496    0.7755  -21.2948 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.3620   -0.3278  -21.8104 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.4530   -1.4081  -21.2306 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.5850   -0.8590  -20.1499 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.9132   -1.0570  -18.8352 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2443   -0.5462  -17.7692 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.2041    0.2078  -18.0510 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.7616    0.5189  -19.3677 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.6400    1.3497  -19.6035 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.2443    1.6426  -20.8817 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.9592    1.1171  -21.9805 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.0496    0.3093  -21.7783 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.4766   -0.0191  -20.4602 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.0762   -0.6664  -22.9342 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.1151   -2.0010  -23.5417 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.4981   -2.1009  -24.9305 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.2034   -1.6507  -25.1995 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.6555   -1.7646  -26.4753 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.3986   -2.2866  -27.5276 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.6881   -2.7239  -27.2592 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.6790   -3.3102  -28.5656 Cl  0  0  0  0  0  0  0  0  0  0  0  0
-   -9.2229   -2.6798  -25.9754 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7877    0.4149  -23.5619 C   0  0  2  0  0  0  0  0  0  0  0  0
-   -8.9701    1.4832  -24.3237 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.1184    2.3363  -24.8306 N   0  0  1  0  0  0  0  0  0  0  0  0
-  -10.1121    2.7334  -26.2446 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.2647    3.8924  -26.6671 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.7660    4.0269  -26.6348 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.2885    1.5096  -24.3280 C   0  0  2  0  0  0  0  0  0  0  0  0
-  -10.8705    1.2766  -22.8751 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.8235    0.0905  -24.6365 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0469    0.3195  -21.2528 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6856   -0.7128  -21.7929 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.7104   -1.6467  -21.0671 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8879   -0.9703  -20.0163 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1603   -1.1588  -18.6891 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4765   -0.5993  -17.6551 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4709    0.1822  -17.9731 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0698    0.4656  -19.3086 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9835    1.3299  -19.6009 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6232    1.5795  -20.8977 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3319    0.9774  -21.9607 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3913    0.1427  -21.7041 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7909   -0.1312  -20.3665 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1669   -1.0554  -23.0506 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.9915   -0.0282  -23.6875 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.4381   -0.0030  -23.2212 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.2120    1.1377  -23.4432 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.5415    1.1835  -23.0346 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.1252    0.0908  -22.4024 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.3519   -1.0414  -22.1887 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.0589   -2.4293  -21.4086 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  -12.0193   -1.0946  -22.5791 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9083   -2.3016  -23.7351 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -9.8675   -2.7335  -24.8673 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1856   -4.0605  -25.3316 N   0  0  2  0  0  0  0  0  0  0  0  0
+  -10.0660   -5.2018  -25.3416 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.1601   -6.1855  -26.5306 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.0468   -6.2682  -26.2344 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0220   -4.0327  -24.3225 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -7.5507   -2.5778  -24.4257 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7642   -3.6855  -23.0273 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   2  3  1  0
   3  4  1  0
@@ -8197,11 +8104,11 @@ $$$$
  23 14  1  1
  23 24  1  0
  24 25  1  0
- 25 26  1  6
+ 25 26  1  1
  26 27  1  0
  27 28  1  0
  25 29  1  0
- 29 30  1  1
+ 29 30  1  6
  29 31  1  0
  13  4  1  0
  22 16  1  0
@@ -8211,35 +8118,14 @@ $$$$
  28 26  1  0
 M  CHG  1  25   1
 M  END
->  <cnnaffinities>  (90) 
-[5.70351, 5.67636, 5.97704, 5.54472, 5.33434, 5.71709, 5.5839, 5.89788, 5.59719, 5.85194, 5.81647]
+>  <template_ligand>  (90) 
+mol-58
 
->  <score>  (90) 
-5.70351
-
->  <index>  (90) 
-47
-
->  <Smiles>  (90) 
-O=C(C(c1c(nc(c2c(c(c(c(c12)[H])[H])[H])[H])[H])[H])([H])[H])N(C(c1c(c(c(c(Cl)c1[H])[H])[H])[H])([H])[H])[C@]12C([N@@+](C3(C(C3([H])[H])([H])[H])[H])([C@](C1([H])[H])(C2([H])[H])[H])[H])([H])[H]
-
->  <h>  (90) 
-<NA>
-
->  <Training>  (90) 
-True
-
->  <Success>  (90) 
-True
-
->  <enamine_searched>  (90) 
-False
-
->  <enamine_id>  (90) 
-nan
+>  <template_receptor>  (90) 
+receptors/receptor-58.pdb
 
 >  <SMILES>  (90) 
-O=C(Cc1cncc2ccccc12)N(Cc1cccc(Cl)c1)[C@]12C[N@@H+](C3CC3)[C@H](C1)C2
+O=C(Cc1cncc2ccccc12)N(Cc1cccc(Cl)c1)C12CC(C1)[NH+](C1CC1)C2
 
 >  <LABEL>  (90) 
 SARS-CoV-2 Mpro
@@ -8406,7 +8292,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (92) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnc(C)s2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnc(C)s2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (92) 
 SARS-CoV-2 Mpro
@@ -8506,7 +8392,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (93) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cc2nn[n-]n2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cc2nn[n-]n2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (93) 
 MERS-CoV Mpro
@@ -8602,7 +8488,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (94) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC(C)C)c2cc(F)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC(C)C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (94) 
 SARS-CoV-2 Mpro
@@ -8697,7 +8583,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (95) 
-CCn1nccc1CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(F)ccc2C1=O
+CCn1nccc1CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (95) 
 MERS-CoV Mpro
@@ -8865,7 +8751,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (97) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CCl)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CCl)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (97) 
 MERS-CoV Mpro
@@ -9042,7 +8928,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (99) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (99) 
 MERS-CoV Mpro
@@ -9140,7 +9026,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (100) 
-CCS(=O)(=O)N[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC(=O)NC)C(=O)c1ccc(Cl)cc12
+CCS(=O)(=O)NC1CN(c2cncc3ccccc23)C(=O)C12CN(CC(=O)NC)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (100) 
 MERS-CoV Mpro
@@ -9228,7 +9114,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (101) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(F)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (101) 
 MERS-CoV Mpro
@@ -9290,7 +9176,7 @@ mol-100
 receptors/receptor-100.pdb
 
 >  <SMILES>  (102) 
-C[C@H]1CCN(C(=O)Cc2cncc3ccccc23)CCO1
+CC1CCN(C(=O)Cc2cncc3ccccc23)CCO1
 
 >  <LABEL>  (102) 
 MERS-CoV Mpro
@@ -9363,7 +9249,7 @@ mol-115
 receptors/receptor-115.pdb
 
 >  <SMILES>  (103) 
-CN1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O
+CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (103) 
 MERS-CoV Mpro
@@ -9557,7 +9443,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (105) 
-Cc1nnc(CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3CNc3ccncn3)c3cc(Cl)ccc3C2=O)o1
+Cc1nnc(CN2CC3(C(=O)N(c4cncc5ccccc45)CC3CNc3ccncn3)c3cc(Cl)ccc3C2=O)o1
 
 >  <LABEL>  (105) 
 MERS-CoV Mpro
@@ -9647,7 +9533,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (106) 
-CCNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(Cl)ccc2C1=O
+CCNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (106) 
 SARS-CoV-2 Mpro
@@ -9750,7 +9636,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (107) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ccncn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ccncn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (107) 
 MERS-CoV Mpro
@@ -9864,7 +9750,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (108) 
-O=C1c2ccc(Cl)cc2[C@@]2(CN1CC[NH+]1CC3(COC3)C1)C(=O)N(c1cncc3ccccc13)C[C@@H]2CNc1ncccn1
+O=C1c2ccc(Cl)cc2C2(CN1CC[NH+]1CC3(COC3)C1)C(=O)N(c1cncc3ccccc13)CC2CNc1ncccn1
 
 >  <LABEL>  (108) 
 MERS-CoV Mpro
@@ -10036,7 +9922,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (110) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnccn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnccn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (110) 
 MERS-CoV Mpro
@@ -10127,7 +10013,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (111) 
-Cn1ccc(CN2C[C@]3(CCN(c4cncc5ccccc45)C3=O)c3cc(Cl)ccc3C2=O)n1
+Cn1ccc(CN2CC3(CCN(c4cncc5ccccc45)C3=O)c3cc(Cl)ccc3C2=O)n1
 
 >  <LABEL>  (111) 
 MERS-CoV Mpro
@@ -10223,7 +10109,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (112) 
-COC[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1c[nH+]c[nH]1)C(=O)c1ccc(Cl)cc12
+COCC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1c[nH+]c[nH]1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (112) 
 SARS-CoV-2 Mpro
@@ -10316,7 +10202,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (113) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ncccn1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ncccn1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (113) 
 SARS-CoV-2 Mpro
@@ -10406,7 +10292,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (114) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)CC2(C)C)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2(C)C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (114) 
 SARS-CoV-2 Mpro
@@ -10479,7 +10365,7 @@ mol-115
 receptors/receptor-115.pdb
 
 >  <SMILES>  (115) 
-CN1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O
+CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (115) 
 SARS-CoV-2 Mpro
@@ -10579,7 +10465,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (116) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cc2nn[n-]n2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cc2nn[n-]n2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (116) 
 SARS-CoV-2 Mpro
@@ -10647,7 +10533,7 @@ mol-100
 receptors/receptor-100.pdb
 
 >  <SMILES>  (117) 
-O=C(Cc1cncc2ccccc12)N1CCCSC[C@H]1C(F)(F)F
+O=C(Cc1cncc2ccccc12)N1CCCSCC1C(F)(F)F
 
 >  <LABEL>  (117) 
 MERS-CoV Mpro
@@ -10750,7 +10636,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (118) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnc(C)s2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnc(C)s2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (118) 
 MERS-CoV Mpro
@@ -10845,7 +10731,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (119) 
-CCn1nccc1CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(F)ccc2C1=O
+CCn1nccc1CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (119) 
 SARS-CoV-2 Mpro
@@ -10938,7 +10824,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (120) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ccncn1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ccncn1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (120) 
 MERS-CoV Mpro
@@ -11158,7 +11044,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (123) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CO)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CO)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (123) 
 SARS-CoV-2 Mpro
@@ -11253,7 +11139,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (124) 
-COC[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ncc[nH]1)C(=O)c1ccc(Cl)cc12
+COCC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ncc[nH]1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (124) 
 MERS-CoV Mpro
@@ -11430,7 +11316,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (126) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1nc[nH]n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1nc[nH]n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (126) 
 SARS-CoV-2 Mpro
@@ -11536,7 +11422,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (127) 
-O=C1c2ccc(Cl)cc2[C@@]2(CN1Cc1ccnnc1)C(=O)N(c1cncc3ccccc13)C[C@@H]2CNc1nncs1
+O=C1c2ccc(Cl)cc2C2(CN1Cc1ccnnc1)C(=O)N(c1cncc3ccccc13)CC2CNc1nncs1
 
 >  <LABEL>  (127) 
 MERS-CoV Mpro
@@ -11627,7 +11513,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (128) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cocn1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cocn1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (128) 
 SARS-CoV-2 Mpro
@@ -11728,7 +11614,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (129) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[N@@H+]1CCC3(COC3)C1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CCC3(COC3)C1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (129) 
 MERS-CoV Mpro
@@ -11818,7 +11704,7 @@ False
 nan
 
 >  <SMILES>  (130) 
-CC[C@H]1c2ccsc2CCN1C(=O)Cc1cncc2ccccc12
+CCC1c2ccsc2CCN1C(=O)Cc1cncc2ccccc12
 
 >  <LABEL>  (130) 
 SARS-CoV-2 Mpro
@@ -11909,7 +11795,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (131) 
-Cn1ccc(CN2C[C@]3(CCN(c4cncc5ccccc45)C3=O)c3cc(Cl)ccc3C2=O)n1
+Cn1ccc(CN2CC3(CCN(c4cncc5ccccc45)C3=O)c3cc(Cl)ccc3C2=O)n1
 
 >  <LABEL>  (131) 
 MERS-CoV Mpro
@@ -12005,7 +11891,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (132) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[NH+]1CCOCC1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CCOCC1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (132) 
 MERS-CoV Mpro
@@ -12117,7 +12003,7 @@ False
 nan
 
 >  <SMILES>  (133) 
-CNC(=O)CN1C(=O)C2=CC=C(Cl)C[C@@]23[C@@H]1[C@]31C(=O)N(c2cncc3ccccc23)C/C1=C\F
+CNC(=O)CN1C(=O)C2=CC=C(Cl)CC23C1C31C(=O)N(c2cncc3ccccc23)CC1=CF
 
 >  <LABEL>  (133) 
 MERS-CoV Mpro
@@ -12210,7 +12096,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (134) 
-Cc1cc(CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(F)ccc3C2=O)on1
+Cc1cc(CN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(F)ccc3C2=O)on1
 
 >  <LABEL>  (134) 
 SARS-CoV-2 Mpro
@@ -12302,7 +12188,7 @@ False
 nan
 
 >  <SMILES>  (135) 
-O=C(Cc1cncc2ccccc12)N1CC[C@H]2CCC(F)(F)C[C@H]2C1
+O=C(Cc1cncc2ccccc12)N1CCC2CCC(F)(F)CC2C1
 
 >  <LABEL>  (135) 
 MERS-CoV Mpro
@@ -12402,7 +12288,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (136) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COCC2(F)CC2)c2cc(Cl)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2COCC2(F)CC2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (136) 
 MERS-CoV Mpro
@@ -12515,7 +12401,7 @@ False
 nan
 
 >  <SMILES>  (137) 
-O=C(Cc1cncc2ccccc12)N(Cc1cccc(Cl)c1)[C@]12CC[C@H](C1)[N@H+](CC1COC1)C2
+O=C(Cc1cncc2ccccc12)N(Cc1cccc(Cl)c1)C12CCC(C1)[NH+](CC1COC1)C2
 
 >  <LABEL>  (137) 
 SARS-CoV-2 Mpro
@@ -12608,7 +12494,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (138) 
-Cc1nc(CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(F)ccc3C2=O)no1
+Cc1nc(CN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(F)ccc3C2=O)no1
 
 >  <LABEL>  (138) 
 MERS-CoV Mpro
@@ -12703,7 +12589,7 @@ mol-58
 receptors/receptor-58.pdb
 
 >  <SMILES>  (139) 
-C=CC(=O)N1CCCc2c1cccc2[N@@H+](Cc1cccc(Cl)c1)C(=O)Cc1cncc2ccccc12
+C=CC(=O)N1CCCc2c1cccc2[NH+](Cc1cccc(Cl)c1)C(=O)Cc1cncc2ccccc12
 
 >  <LABEL>  (139) 
 SARS-CoV-2 Mpro
@@ -12981,7 +12867,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (142) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1nnn(C)n1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1nnn(C)n1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (142) 
 MERS-CoV Mpro
@@ -13065,7 +12951,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (143) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC#N)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC#N)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (143) 
 SARS-CoV-2 Mpro
@@ -13158,7 +13044,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (144) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1nccn1C)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1nccn1C)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (144) 
 MERS-CoV Mpro
@@ -13252,7 +13138,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (145) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2NC(C)=O)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2NC(C)=O)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (145) 
 MERS-CoV Mpro
@@ -13346,36 +13232,36 @@ O=C(Cc1cncc2ccccc12)N1CCCc2sccc2C1
 SARS-CoV-2 Mpro
 
 $$$$
-
+ligand_72
      RDKit          3D
 
  26 29  0  0  0  0  0  0  0  0999 V2000
-   -8.6955    0.6361  -21.1861 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.2375   -0.2399  -21.9000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.4468   -1.3980  -21.2719 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.5786   -0.8642  -20.1675 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.9028   -1.0693  -18.8540 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2315   -0.5602  -17.7856 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.1931    0.1973  -18.0542 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.7439    0.5061  -19.3695 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.6261    1.3498  -19.6049 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.2311    1.6460  -20.8819 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.9366    1.1082  -21.9794 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.0169    0.2856  -21.7790 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.4547   -0.0358  -20.4623 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.3558   -0.2207  -23.2729 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.3821   -1.3945  -24.1469 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.3026   -1.3203  -25.2261 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.4129   -0.0005  -25.9896 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.3602    1.1833  -25.0227 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.4411    1.0792  -23.9461 C   0  0  1  0  0  0  0  0  0  0  0  0
-   -9.8246    1.3632  -24.5494 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.8778    1.4959  -23.4753 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.9207    2.6939  -22.7522 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.9239    2.9310  -21.8218 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -12.8799    1.9523  -21.5906 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -12.7871    0.7171  -22.2318 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.7756    0.4700  -23.1616 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8545    0.3002  -21.3950 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.4663   -0.7638  -21.8139 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4158   -1.5987  -21.1038 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6597   -0.9134  -20.0054 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9962   -1.1278  -18.6966 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3421   -0.6240  -17.6147 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3021    0.1349  -17.8683 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8579    0.4798  -19.1773 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7471    1.3391  -19.3998 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3553    1.6574  -20.6738 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0534    1.1249  -21.7821 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1300    0.2904  -21.5976 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5611   -0.0536  -20.2846 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0259   -1.4133  -22.9671 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.4834   -1.4052  -23.0039 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.1542   -0.1496  -23.6138 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.2017    0.9049  -24.2355 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7736    0.4412  -24.6274 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.4079   -1.0053  -24.2383 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -8.7108   -1.9722  -25.3972 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.3542   -3.3983  -25.0718 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0196   -3.7583  -24.8774 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6787   -5.0582  -24.5252 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6728   -6.0164  -24.3607 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0034   -5.6691  -24.5559 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.3398   -4.3668  -24.9078 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   2  3  1  0
   3  4  1  0
@@ -13406,35 +13292,14 @@ $$$$
  26 21  1  0
  13  8  1  0
 M  END
->  <cnnaffinities>  (147) 
-[5.35661, 5.30727, 5.3072, 5.4658, 5.30139, 5.29787, 5.2274, 5.2253, 5.44088]
+>  <template_ligand>  (147) 
+mol-180
 
->  <score>  (147) 
-5.35661
-
->  <index>  (147) 
-73
-
->  <Smiles>  (147) 
-O=C(C(c1c(nc(c2c(c(c(c(c12)[H])[H])[H])[H])[H])[H])([H])[H])N1C(C(C(C([C@]1(C(c1c(c(c(c(c1[H])[H])[H])[H])[H])([H])[H])[H])([H])[H])([H])[H])([H])[H])([H])[H]
-
->  <h>  (147) 
-<NA>
-
->  <Training>  (147) 
-True
-
->  <Success>  (147) 
-True
-
->  <enamine_searched>  (147) 
-False
-
->  <enamine_id>  (147) 
-nan
+>  <template_receptor>  (147) 
+receptors/receptor-180.pdb
 
 >  <SMILES>  (147) 
-O=C(Cc1cncc2ccccc12)N1CCCC[C@H]1Cc1ccccc1
+O=C(Cc1cncc2ccccc12)N1CCCCC1Cc1ccccc1
 
 >  <LABEL>  (147) 
 SARS-CoV-2 Mpro
@@ -13522,7 +13387,7 @@ mol-295
 receptors/receptor-295.pdb
 
 >  <SMILES>  (148) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(C1C[NH2+]C1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(C1C[NH2+]C1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (148) 
 MERS-CoV Mpro
@@ -13613,7 +13478,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (149) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ccon1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ccon1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (149) 
 MERS-CoV Mpro
@@ -13718,49 +13583,49 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (150) 
-COc1cccc(CNC(=O)CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(Cl)ccc3C2=O)c1
+COc1cccc(CNC(=O)CN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(Cl)ccc3C2=O)c1
 
 >  <LABEL>  (150) 
 MERS-CoV Mpro
 
 $$$$
-
+ligand_73
      RDKit          3D
 
  27 31  0  0  0  0  0  0  0  0999 V2000
-    8.5617    0.8306   20.3113 O   0  0  0  0  0  0  0  0  0  0  0  0
-    8.1104   -0.0661   20.9863 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.7515   -0.8587   21.8955 N   0  0  0  0  0  0  0  0  0  0  0  0
-    7.8549   -1.4423   22.8587 C   0  0  1  0  0  0  0  0  0  0  0  0
-    8.1345   -2.8994   23.2689 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.4200   -2.4419   24.7340 C   0  0  2  0  0  0  0  0  0  0  0  0
-    7.5527   -3.0612   25.7876 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.1577   -3.0377   25.6551 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.3261   -3.6142   26.6089 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.8831   -4.1796   27.7535 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.2535   -4.1205   27.9509 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.0785   -3.6344   26.9434 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.8069   -3.8092   27.1405 Cl  0  0  0  0  0  0  0  0  0  0  0  0
-    8.0360   -0.9807   24.3301 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.5053   -1.1857   22.2197 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.4284   -1.5199   22.6558 O   0  0  0  0  0  0  0  0  0  0  0  0
-    6.7538   -0.4579   21.0540 N   0  0  0  0  0  0  0  0  0  0  0  0
-    5.8358   -0.2296   19.9968 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0553   -0.8242   18.7792 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2529   -0.6580   17.7038 N   0  0  0  0  0  0  0  0  0  0  0  0
-    4.1918    0.0944   17.8560 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8380    0.7504   19.0658 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.6566    1.5278   19.1800 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.3548    2.1634   20.3490 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.2414    2.0781   21.4455 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.3939    1.3377   21.3613 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.7004    0.6194   20.1715 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0084    0.4930  -21.3003 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6743   -0.5951  -21.7049 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1292   -1.2809  -22.7979 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5893   -2.6073  -22.9290 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -8.0140   -3.0342  -24.2898 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8777   -4.3165  -24.2517 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -9.7133   -4.6765  -25.4498 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5586   -5.9564  -25.9869 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.2760   -6.3934  -27.0889 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.1872   -5.5399  -27.6946 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3716   -4.2611  -27.1911 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.6433   -3.8397  -26.0841 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.9723   -2.2094  -25.5504 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5769   -3.7835  -22.9807 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6056   -2.6584  -21.7784 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8943   -3.5779  -21.4620 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6825   -1.4162  -21.1401 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8445   -0.9369  -20.0938 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1831   -1.1499  -18.7850 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5510   -0.5844  -17.7224 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5463    0.2240  -17.9639 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0509    0.4938  -19.2710 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9534    1.3705  -19.5009 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4997    1.5856  -20.7723 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1178    0.9419  -21.8690 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1859    0.1036  -21.6754 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6941   -0.1286  -20.3699 C   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   2  3  1  0
   4  3  1  0
-  4  5  1  1
+  4  5  1  6
   5  6  1  0
-  6  7  1  1
+  6  7  1  6
   7  8  2  0
   8  9  1  0
   9 10  2  0
@@ -13787,35 +13652,14 @@ $$$$
  27 22  1  0
  12  7  1  0
 M  END
->  <cnnaffinities>  (151) 
-[5.70965, 5.57673, 5.69732, 5.54045]
+>  <template_ligand>  (151) 
+mol-109
 
->  <score>  (151) 
-5.70965
-
->  <index>  (151) 
-26
-
->  <Smiles>  (151) 
-O=C1N([C@]2(C([C@](c3c(c(c(c(c3Cl)[H])[H])[H])[H])(C2([H])[H])[H])([H])[H])C(=O)N1c1c(nc(c2c(c(c(c(c12)[H])[H])[H])[H])[H])[H])[H]
-
->  <h>  (151) 
-<NA>
-
->  <Training>  (151) 
-True
-
->  <Success>  (151) 
-True
-
->  <enamine_searched>  (151) 
-False
-
->  <enamine_id>  (151) 
-nan
+>  <template_receptor>  (151) 
+receptors/receptor-109.pdb
 
 >  <SMILES>  (151) 
-O=C1N[C@]2(C[C@H](c3ccccc3Cl)C2)C(=O)N1c1cncc2ccccc12
+O=C1NC2(CC(c3ccccc3Cl)C2)C(=O)N1c1cncc2ccccc12
 
 >  <LABEL>  (151) 
 SARS-CoV-2 Mpro
@@ -13904,7 +13748,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (152) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[NH+](C)C)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+](C)C)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (152) 
 MERS-CoV Mpro
@@ -14094,7 +13938,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (154) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnccn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnccn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (154) 
 SARS-CoV-2 Mpro
@@ -14182,7 +14026,7 @@ mol-172
 receptors/receptor-172.pdb
 
 >  <SMILES>  (155) 
-COC(=O)N[C@H](C(=O)N1C[C@H](C(F)(F)F)C[C@H]1C(=O)N[C@H](C[NH3+])C[C@@H]1CCNC1=O)C(C)(C)C
+COC(=O)NC(C(=O)N1CC(C(F)(F)F)CC1C(=O)NC(C[NH3+])CC1CCNC1=O)C(C)(C)C
 
 >  <LABEL>  (155) 
 MERS-CoV Mpro
@@ -14278,7 +14122,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (156) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[NH+]1CCOCC1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CCOCC1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (156) 
 SARS-CoV-2 Mpro
@@ -14369,7 +14213,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (157) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cocn1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cocn1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (157) 
 SARS-CoV-2 Mpro
@@ -14522,7 +14366,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (159) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ccnn1C)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ccnn1C)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (159) 
 MERS-CoV Mpro
@@ -14615,7 +14459,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (160) 
-Cc1nc(CN2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(F)ccc3C2=O)co1
+Cc1nc(CN2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(F)ccc3C2=O)co1
 
 >  <LABEL>  (160) 
 MERS-CoV Mpro
@@ -14703,7 +14547,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (161) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (161) 
 SARS-CoV-2 Mpro
@@ -14870,7 +14714,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (163) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ncco1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ncco1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (163) 
 MERS-CoV Mpro
@@ -14970,7 +14814,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (164) 
-C[C@@H]1COC[C@@H](C)[NH+]1CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(Cl)ccc2C1=O
+CC1COCC(C)[NH+]1CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (164) 
 MERS-CoV Mpro
@@ -15063,7 +14907,7 @@ mol-295
 receptors/receptor-295.pdb
 
 >  <SMILES>  (165) 
-CNC(=O)C1(N2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(Cl)ccc3C2=O)CC1
+CNC(=O)C1(N2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(Cl)ccc3C2=O)CC1
 
 >  <LABEL>  (165) 
 MERS-CoV Mpro
@@ -15156,7 +15000,7 @@ mol-295
 receptors/receptor-295.pdb
 
 >  <SMILES>  (166) 
-CNC(=O)C1(N2C[C@@]3(C(=O)N(c4cncc5ccccc45)C[C@@H]3C)c3cc(Cl)ccc3C2=O)CC1
+CNC(=O)C1(N2CC3(C(=O)N(c4cncc5ccccc45)CC3C)c3cc(Cl)ccc3C2=O)CC1
 
 >  <LABEL>  (166) 
 SARS-CoV-2 Mpro
@@ -15247,7 +15091,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (167) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cocn1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cocn1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (167) 
 MERS-CoV Mpro
@@ -15350,7 +15194,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (168) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ncncn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ncncn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (168) 
 MERS-CoV Mpro
@@ -15449,7 +15293,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (169) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2Cn2cccn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2Cn2cccn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (169) 
 MERS-CoV Mpro
@@ -15701,46 +15545,46 @@ mol-115
 receptors/receptor-115.pdb
 
 >  <SMILES>  (172) 
-COc1ccccc1[C@H]1C[C@@H](C)CCN1C(=O)Cc1cncc2ccccc12
+COc1ccccc1C1CC(C)CCN1C(=O)Cc1cncc2ccccc12
 
 >  <LABEL>  (172) 
 SARS-CoV-2 Mpro
 
 $$$$
-
+ligand_82
      RDKit          3D
 
  30 34  0  0  0  0  0  0  0  0999 V2000
-   -3.6260   -1.0749  -25.3568 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.5218   -2.0122  -26.3777 S   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.3055   -3.3706  -25.9215 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.1897   -1.5676  -27.7174 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2247   -1.5897  -26.0858 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.9802   -0.9924  -27.0942 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.2844   -0.6211  -26.8254 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.8195   -0.8196  -25.5476 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.0821   -1.4607  -24.5549 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.7674   -1.8238  -24.8303 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.6804   -1.6890  -23.1807 C   0  0  1  0  0  0  0  0  0  0  0  0
-  -10.2136   -1.5969  -23.2303 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.6473   -0.3861  -24.0396 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.0734   -0.3637  -25.3357 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.2605   -2.9271  -22.5735 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.4708   -2.7904  -21.4749 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.8996   -3.6586  -20.8616 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.4055   -1.4025  -21.2128 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.5917   -0.8330  -20.1938 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.9038   -1.0704  -18.8799 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2227   -0.5506  -17.8296 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.1857    0.2058  -18.0976 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.7353    0.5148  -19.4103 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.6009    1.3410  -19.6382 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.1840    1.6043  -20.9128 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.8785    1.0466  -22.0113 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.9771    0.2488  -21.8195 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.4477   -0.0259  -20.5026 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.0981   -0.6743  -22.1807 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.2088    0.5269  -22.2172 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.9503   -4.4979  -22.3469 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.6368   -3.2537  -21.2857 S   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.8522   -2.5414  -20.9340 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.8186   -3.8189  -20.2359 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.7130   -2.2054  -22.3395 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.4155   -1.2834  -23.1165 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.7003   -0.3904  -23.8922 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3075   -0.4534  -23.8731 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.6073   -1.3852  -23.0966 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3330   -2.2853  -22.3266 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1049   -1.3350  -22.9964 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -8.4707   -0.6142  -24.2181 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.4886   -0.1256  -25.2462 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.6312    0.4471  -24.6356 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5182   -2.6518  -22.7539 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6064   -2.6859  -21.7313 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8754   -3.5862  -21.3887 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6860   -1.4225  -21.1158 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8420   -0.9346  -20.0803 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1869   -1.1510  -18.7765 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5623   -0.5869  -17.7111 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5516    0.2104  -17.9680 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0656    0.4921  -19.2775 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9625    1.3563  -19.4992 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4968    1.5760  -20.7671 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1124    0.9392  -21.8705 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1914    0.1129  -21.6823 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7067   -0.1164  -20.3764 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6603   -0.6119  -21.7001 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0245    0.4440  -21.2543 O   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  1  0
   2  3  2  0
   2  4  2  0
@@ -15776,35 +15620,14 @@ $$$$
  28 19  1  0
  28 23  1  0
 M  END
->  <cnnaffinities>  (173) 
-[5.35591, 5.34483]
+>  <template_ligand>  (173) 
+mol-109
 
->  <score>  (173) 
-5.35591
-
->  <index>  (173) 
-83
-
->  <Smiles>  (173) 
-N(S(=O)(=O)c1c(c(c2c(c1[H])[C@@]1(C(C(O2)([H])[H])([H])[H])N(C(=O)N(c2c(nc(c3c(c(c(c(c23)[H])[H])[H])[H])[H])[H])C1=O)[H])[H])[H])([H])[H]
-
->  <h>  (173) 
-<NA>
-
->  <Training>  (173) 
-True
-
->  <Success>  (173) 
-True
-
->  <enamine_searched>  (173) 
-False
-
->  <enamine_id>  (173) 
-nan
+>  <template_receptor>  (173) 
+receptors/receptor-109.pdb
 
 >  <SMILES>  (173) 
-NS(=O)(=O)c1ccc2c(c1)[C@@]1(CCO2)NC(=O)N(c2cncc3ccccc23)C1=O
+NS(=O)(=O)c1ccc2c(c1)C1(CCO2)NC(=O)N(c2cncc3ccccc23)C1=O
 
 >  <LABEL>  (173) 
 SARS-CoV-2 Mpro
@@ -15901,7 +15724,7 @@ mol-23
 receptors/receptor-23.pdb
 
 >  <SMILES>  (174) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC(=O)NCC1(F)CC1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC(=O)NCC1(F)CC1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (174) 
 SARS-CoV-2 Mpro
@@ -15992,7 +15815,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (175) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)CC23CC3)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC23CC3)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (175) 
 SARS-CoV-2 Mpro
@@ -16054,7 +15877,7 @@ mol-192
 receptors/receptor-192.pdb
 
 >  <SMILES>  (176) 
-C[C@H]1CCN(C(=O)Cc2cncc3ccccc23)[C@@H](C)C1
+CC1CCN(C(=O)Cc2cncc3ccccc23)C(C)C1
 
 >  <LABEL>  (176) 
 SARS-CoV-2 Mpro
@@ -16147,7 +15970,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (177) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1ccnn1C)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1ccnn1C)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (177) 
 SARS-CoV-2 Mpro
@@ -16363,7 +16186,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (180) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(CC[NH+]1CCC1)C(=O)c1ccc(Cl)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(CC[NH+]1CCC1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (180) 
 MERS-CoV Mpro
@@ -16523,7 +16346,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (182) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CS(=O)(=O)NC)c2cc(F)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CS(=O)(=O)NC)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (182) 
 SARS-CoV-2 Mpro
@@ -16626,7 +16449,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (183) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2cnccn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2cnccn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (183) 
 SARS-CoV-2 Mpro
@@ -16717,7 +16540,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (184) 
-C[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cn[nH]c1)C(=O)c1ccc(F)cc12
+CC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cn[nH]c1)C(=O)c1ccc(F)cc12
 
 >  <LABEL>  (184) 
 MERS-CoV Mpro
@@ -16812,7 +16635,7 @@ mol-246
 receptors/receptor-246.pdb
 
 >  <SMILES>  (185) 
-COC[C@H]1CN(c2cncc3ccccc23)C(=O)[C@@]12CN(Cc1cn[nH]c1)C(=O)c1ccc(Cl)cc12
+COCC1CN(c2cncc3ccccc23)C(=O)C12CN(Cc1cn[nH]c1)C(=O)c1ccc(Cl)cc12
 
 >  <LABEL>  (185) 
 SARS-CoV-2 Mpro
@@ -16887,7 +16710,7 @@ mol-100
 receptors/receptor-100.pdb
 
 >  <SMILES>  (186) 
-O=C(Cc1cncc2ccccc12)N1C=CC=CC=C[C@H]1c1ccccc1
+O=C(Cc1cncc2ccccc12)N1C=CC=CC=CC1c1ccccc1
 
 >  <LABEL>  (186) 
 MERS-CoV Mpro
@@ -16974,7 +16797,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (187) 
-C[NH2+]CCN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(F)ccc2C1=O
+C[NH2+]CCN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (187) 
 MERS-CoV Mpro
@@ -17069,7 +16892,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (188) 
-CCn1nccc1CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2C)c2cc(F)ccc2C1=O
+CCn1nccc1CN1CC2(C(=O)N(c3cncc4ccccc34)CC2C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (188) 
 SARS-CoV-2 Mpro
@@ -17164,7 +16987,7 @@ mol-58
 receptors/receptor-58.pdb
 
 >  <SMILES>  (189) 
-CCC(=O)[N@@H+]1CCCc2c(N(Cc3cccc(Cl)c3)C(=O)Cc3cncc4ccccc34)cccc21
+CCC(=O)[NH+]1CCCc2c(N(Cc3cccc(Cl)c3)C(=O)Cc3cncc4ccccc34)cccc21
 
 >  <LABEL>  (189) 
 MERS-CoV Mpro
@@ -17264,7 +17087,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (190) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CS(=O)(=O)N(C)C)c2cc(F)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CS(=O)(=O)N(C)C)c2cc(F)ccc2C1=O
 
 >  <LABEL>  (190) 
 MERS-CoV Mpro
@@ -17341,7 +17164,7 @@ mol-668
 receptors/receptor-668.pdb
 
 >  <SMILES>  (191) 
-CNS(=O)(=O)OCC(=O)N[C@@H](C)c1cc(Cl)cc(-c2ccc(S(N)(=O)=O)cc2)c1
+CNS(=O)(=O)OCC(=O)NC(C)c1cc(Cl)cc(-c2ccc(S(N)(=O)=O)cc2)c1
 
 >  <LABEL>  (191) 
 SARS-CoV-2 Mpro
@@ -17444,7 +17267,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (192) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2CNc2ccncn2)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2CNc2ccncn2)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (192) 
 SARS-CoV-2 Mpro
@@ -17604,7 +17427,7 @@ mol-218
 receptors/receptor-218.pdb
 
 >  <SMILES>  (194) 
-CNC(=O)CN1C[C@@]2(C(=O)N(c3cncc4ccccc34)C[C@@H]2COC(C)C)c2cc(Cl)ccc2C1=O
+CNC(=O)CN1CC2(C(=O)N(c3cncc4ccccc34)CC2COC(C)C)c2cc(Cl)ccc2C1=O
 
 >  <LABEL>  (194) 
 SARS-CoV-2 Mpro
@@ -17671,7 +17494,7 @@ mol-109
 receptors/receptor-109.pdb
 
 >  <SMILES>  (195) 
-C[C@@H]1COC[C@@]2(C1)NC(=O)N(c1cncc3ccccc13)C2=O
+CC1COCC2(C1)NC(=O)N(c1cncc3ccccc13)C2=O
 
 >  <LABEL>  (195) 
 SARS-CoV-2 Mpro
